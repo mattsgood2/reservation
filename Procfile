@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath movies movies.deploy --log-file -
+web: gunicorn --pythonpath reservation reservation.deploy --log-file -
